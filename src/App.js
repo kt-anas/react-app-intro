@@ -1,16 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        
-      </header>
-    </div>
-  );
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+function App(){
+    return (
+        <div className="App">
+            <Navbar/>
+            <Header/>
+        </div>
+    );
 }
-
 export default App;

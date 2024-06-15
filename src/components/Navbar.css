@@ -1,0 +1,23 @@
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color:#fafafa;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 50px;
+    margin-right: 35px;
+} 
+.links a{
+    text-decoration: none;
+    text-transform: uppercase;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}.links a:hover{
+    color:rgb(114, 114, 132);
+}
