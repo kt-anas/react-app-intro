@@ -1,10 +1,18 @@
-
-.navbar{
-    height: 50px;
-    width: 100%;
-    background-color:#fafafa;
+.headernav{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(154, 161, 177, .1);
+    position: fixed;
+    width: 100%;
+}
+.navbar{
+    height: 84px;
+    max-width: 1240px;
+    background-color: #FFFFFF;
+    display: flex;
+    
     align-items: center;
 }
 .links{
@@ -14,10 +22,21 @@
 } 
 .links a{
     text-decoration: none;
-    text-transform: uppercase;
-   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    
 }.links a:hover{
     color:rgb(114, 114, 132);
 }
+ 
+.logo img {
+    width: 100px; 
+    height: auto;  
+  }
+  
+  .button a{
+    text-decoration: none;
+    color: white;
+    background-color: #D54D3B;
+    padding: 12px 15px;
+    border-radius: 7px;
+  }

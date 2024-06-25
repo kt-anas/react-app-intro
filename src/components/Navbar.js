@@ -1,12 +1,26 @@
  import './Navbar.css';
+ import Logo from '../img/Kalungi Logo.svg';
  const Navbar = () => {
-    return ( 
-        <nav className="navbar">
-            <div className="links">
-                <a href="/">Home</a>
-                <a href="/">About</a>
+    return (  
+        <>
+       <div className="headernav">
+           <nav className="navbar">
+            <div className='logo'>
+            <img src={Logo} alt='Kalungi Logo' />
             </div>
-        </nav>
+            <div className="links">
+                <a href="/">Marketing Services</a>
+                <a href="/">Product</a>
+                <a href="/">Company</a>
+                <a href="/">Learn</a>
+                <a href="/">Blog</a>
+            </div>
+            <div className='button'>
+                <a href="/">Start your growth</a>
+            </div>
+         </nav>
+       </div>
+       </>
      );
  }
 
