@@ -12,7 +12,7 @@
     max-width: 1240px;
     background-color: #FFFFFF;
     display: flex;
-    
+    gap: 40px;
     align-items: center;
 }
 .links{
